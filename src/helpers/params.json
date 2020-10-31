@@ -1,0 +1,54 @@
+{
+   
+    "animalCategories": [
+        {
+            "value": 1,
+            "label": "Собака"
+        },
+        {
+            "value": 2,
+            "label": "Кошка"
+        }
+    ],
+    "sexOptions": [
+        {
+            "value": "male",
+            "label": "Мальчик",
+            "icon": "el-icon-male"
+        },
+        {
+            "value": "female",
+            "label": "Девочка",
+            "icon": "el-icon-female"
+        }
+    ],
+    "ageOptions": [
+        {
+            "value": 1,
+            "label": "Молодые ( < 2 лет )"
+        },
+        {
+            "value": 2,
+            "label": "Взрослые ( 2-7 лет )"
+        },
+        {
+            "value": 3,
+            "label": "Пожелые ( > 7 лет )"
+        }
+    ],
+    "sizeOptions": [
+        {
+            "value": "small",
+            "label": "Маленькое"
+        },
+        {
+            "value": "medium",
+            "label": "Среднее"
+        },
+        {
+            "value": "large",
+            "label": "Большое"
+        }
+    ]
+   
+}

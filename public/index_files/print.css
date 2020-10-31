@@ -1,0 +1,601 @@
+@media print {
+    * {
+        word-break: break-word;
+    }
+
+    h2 {
+        color: red !important;
+    }
+
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+    .col-md-11 {
+        width: 91.66666667%;
+    }
+
+    .col-md-10 {
+        width: 83.33333333%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-8 {
+        width: 66.66666667%;
+    }
+
+    .col-md-7 {
+        width: 58.33333333%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-5 {
+        width: 41.66666667%;
+    }
+
+    .col-md-4 {
+        width: 33.33333333%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-2 {
+        width: 16.66666667%;
+    }
+
+    .col-md-1 {
+        width: 8.33333333%;
+    }
+
+    .col-md-pull-12 {
+        right: 100%;
+    }
+
+    .col-md-pull-11 {
+        right: 91.66666667%;
+    }
+
+    .col-md-pull-10 {
+        right: 83.33333333%;
+    }
+
+    .col-md-pull-9 {
+        right: 75%;
+    }
+
+    .col-md-pull-8 {
+        right: 66.66666667%;
+    }
+
+    .col-md-pull-7 {
+        right: 58.33333333%;
+    }
+
+    .col-md-pull-6 {
+        right: 50%;
+    }
+
+    .col-md-pull-5 {
+        right: 41.66666667%;
+    }
+
+    .col-md-pull-4 {
+        right: 33.33333333%;
+    }
+
+    .col-md-pull-3 {
+        right: 25%;
+    }
+
+    .col-md-pull-2 {
+        right: 16.66666667%;
+    }
+
+    .col-md-pull-1 {
+        right: 8.33333333%;
+    }
+
+    .col-md-pull-0 {
+        right: auto;
+    }
+
+    .col-md-push-12 {
+        left: 100%;
+    }
+
+    .col-md-push-11 {
+        left: 91.66666667%;
+    }
+
+    .col-md-push-10 {
+        left: 83.33333333%;
+    }
+
+    .col-md-push-9 {
+        left: 75%;
+    }
+
+    .col-md-push-8 {
+        left: 66.66666667%;
+    }
+
+    .col-md-push-7 {
+        left: 58.33333333%;
+    }
+
+    .col-md-push-6 {
+        left: 50%;
+    }
+
+    .col-md-push-5 {
+        left: 41.66666667%;
+    }
+
+    .col-md-push-4 {
+        left: 33.33333333%;
+    }
+
+    .col-md-push-3 {
+        left: 25%;
+    }
+
+    .col-md-push-2 {
+        left: 16.66666667%;
+    }
+
+    .col-md-push-1 {
+        left: 8.33333333%;
+    }
+
+    .col-md-push-0 {
+        left: auto;
+    }
+
+    .col-md-offset-12 {
+        margin-left: 100%;
+    }
+
+    .col-md-offset-11 {
+        margin-left: 91.66666667%;
+    }
+
+    .col-md-offset-10 {
+        margin-left: 83.33333333%;
+    }
+
+    .col-md-offset-9 {
+        margin-left: 75%;
+    }
+
+    .col-md-offset-8 {
+        margin-left: 66.66666667%;
+    }
+
+    .col-md-offset-7 {
+        margin-left: 58.33333333%;
+    }
+
+    .col-md-offset-6 {
+        margin-left: 50%;
+    }
+
+    .col-md-offset-5 {
+        margin-left: 41.66666667%;
+    }
+
+    .col-md-offset-4 {
+        margin-left: 33.33333333%;
+    }
+
+    .col-md-offset-3 {
+        margin-left: 25%;
+    }
+
+    .col-md-offset-2 {
+        margin-left: 16.66666667%;
+    }
+
+    .col-md-offset-1 {
+        margin-left: 8.33333333%;
+    }
+
+    .col-md-offset-0 {
+        margin-left: 0%;
+    }
+
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left !important;
+    }
+
+    .col-sm-12 {
+        width: 100% !important;
+    }
+
+    .col-sm-11 {
+        width: 91.66666667% !important;
+    }
+
+    .col-sm-10 {
+        width: 83.33333333% !important;
+    }
+
+    .col-sm-9 {
+        width: 75% !important;
+    }
+
+    .col-sm-8 {
+        width: 66.66666667% !important;
+    }
+
+    .col-sm-7 {
+        width: 58.33333333% !important;
+    }
+
+    .col-sm-6 {
+        width: 50% !important;
+    }
+
+    .col-sm-5 {
+        width: 41.66666667% !important;
+    }
+
+    .col-sm-4 {
+        width: 33.33333333% !important;
+    }
+
+    .col-sm-3 {
+        width: 25% !important;
+    }
+
+    .col-sm-2 {
+        width: 16.66666667% !important;
+    }
+
+    .col-sm-1 {
+        width: 8.33333333% !important;
+    }
+
+    .col-sm-pull-12 {
+        right: 100% !important;
+    }
+
+    .col-sm-pull-11 {
+        right: 91.66666667% !important;
+    }
+
+    .col-sm-pull-10 {
+        right: 83.33333333% !important;
+    }
+
+    .col-sm-pull-9 {
+        right: 75% !important;
+    }
+
+    .col-sm-pull-8 {
+        right: 66.66666667% !important;
+    }
+
+    .col-sm-pull-7 {
+        right: 58.33333333% !important;
+    }
+
+    .col-sm-pull-6 {
+        right: 50% !important;
+    }
+
+    .col-sm-pull-5 {
+        right: 41.66666667% !important;
+    }
+
+    .col-sm-pull-4 {
+        right: 33.33333333% !important;
+    }
+
+    .col-sm-pull-3 {
+        right: 25% !important;
+    }
+
+    .col-sm-pull-2 {
+        right: 16.66666667% !important;
+    }
+
+    .col-sm-pull-1 {
+        right: 8.33333333% !important;
+    }
+
+    .col-sm-pull-0 {
+        right: auto !important;
+    }
+
+    .col-sm-push-12 {
+        left: 100% !important;
+    }
+
+    .col-sm-push-11 {
+        left: 91.66666667% !important;
+    }
+
+    .col-sm-push-10 {
+        left: 83.33333333% !important;
+    }
+
+    .col-sm-push-9 {
+        left: 75% !important;
+    }
+
+    .col-sm-push-8 {
+        left: 66.66666667% !important;
+    }
+
+    .col-sm-push-7 {
+        left: 58.33333333% !important;
+    }
+
+    .col-sm-push-6 {
+        left: 50% !important;
+    }
+
+    .col-sm-push-5 {
+        left: 41.66666667% !important;
+    }
+
+    .col-sm-push-4 {
+        left: 33.33333333% !important;
+    }
+
+    .col-sm-push-3 {
+        left: 25% !important;
+    }
+
+    .col-sm-push-2 {
+        left: 16.66666667% !important;
+    }
+
+    .col-sm-push-1 {
+        left: 8.33333333% !important;
+    }
+
+    .col-sm-push-0 {
+        left: auto !important;
+    }
+
+    .col-sm-offset-12 {
+        margin-left: 100% !important;
+    }
+
+    .col-sm-offset-11 {
+        margin-left: 91.66666667% !important;
+    }
+
+    .col-sm-offset-10 {
+        margin-left: 83.33333333% !important;
+    }
+
+    .col-sm-offset-9 {
+        margin-left: 75% !important;
+    }
+
+    .col-sm-offset-8 {
+        margin-left: 66.66666667% !important;
+    }
+
+    .col-sm-offset-7 {
+        margin-left: 58.33333333% !important;
+    }
+
+    .col-sm-offset-6 {
+        margin-left: 50% !important;
+    }
+
+    .col-sm-offset-5 {
+        margin-left: 41.66666667% !important;
+    }
+
+    .col-sm-offset-4 {
+        margin-left: 33.33333333% !important;
+    }
+
+    .col-sm-offset-3 {
+        margin-left: 25% !important;
+    }
+
+    .col-sm-offset-2 {
+        margin-left: 16.66666667% !important;
+    }
+
+    .col-sm-offset-1 {
+        margin-left: 8.33333333% !important;
+    }
+
+    .col-sm-offset-0 {
+        margin-left: 0% !important;
+    }
+
+    .right-side, .nav-tabs, .urgent-message, img.ui-datepicker-trigger, .holder img, .form-horizoontal .additional, .pmulti_link, .form-controls {
+        display: none !important;
+    }
+
+    h1 {
+        margin-bottom: 20px;
+        padding: 0 !important;
+        font-size: 21px !important;
+        line-height: 23px;
+    }
+
+    input {
+        color: #000 !important;
+    }
+
+    .chosen-container-single .chosen-single, .chosen-container-multi .chosen-choices, .messagebox-body input {
+        border: none !important;
+    }
+
+    .form-horizoontal {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .form-horizoontal label {
+        float: left !important;
+        width: 250px !important;
+        min-height: 15px !important;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .form-horizoontal .holder {
+        float: left !important;
+        width: 250px !important;
+        min-height: 15px !important;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .form-horizoontal .holder input, .form-horizoontal .chosen-container {
+        width: 250px !important;
+        border: none !important;
+        padding: 0px !important;
+        margin: 0px !important;
+        margin-top: -10px !important;
+    }
+
+    .form-horizoontal .chosen-container {
+        margin-left: -13px !important;
+    }
+
+    .checkbox {
+        margin-left: -14px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    fieldset.form-step {
+        border-bottom: 1px solid #000;
+    }
+
+    fieldset.form-block {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .wrap {
+        display: block !important;
+        margin-bottom: 15px;
+        page-break-inside: avoid;
+    }
+
+    legend {
+        margin: 20px 0 10px 0 !important;
+        padding: 0 !important;
+    }
+
+    label {
+        margin-bottom: 0;
+    }
+
+    label.error {
+        display: none !important;
+    }
+
+    input, textarea, .chosen-choices {
+        margin: 0px !important;
+        margin-top: 12px !important;
+        border: none !important;
+    }
+
+    input[type="checkbox"], input[type="radio"] {
+        /*display: block !important;*/
+    }
+
+    #mos-header, #mos_footer, .form-result-m, .top_panel_mpgu, .form-result-back-button {
+        display: none !important;
+    }
+
+    .print-me {
+        display: block !important;
+    }
+
+    .ticket_printer {
+        display: none !important;
+    }
+
+    #preview {
+        display: none;
+    }
+
+    table  {
+        border-collapse: collapse;
+        table-layout: fixed;
+        font-size: 14px;
+        width: 100%;
+        max-width: 100%;
+        word-wrap: break-word;
+    }
+
+    td, th {
+        width: auto !important;
+        padding: 4px;
+        border: 1px solid #000;
+    }
+}
+
+.print-page * {
+    word-break: break-word;
+}
+
+.print-page h1 {
+    margin-bottom: 20px;
+    padding: 0 30px;
+    font-size: 21px !important;
+}
+
+.print-page .form-block {
+    padding: 5px 30px 0 30px;
+}
+
+.print-page .wrap {
+    display: block !important;
+    margin-bottom: 15px;
+}
+
+.print-page legend {
+    margin: 20px 0 10px 0 !important;
+    padding: 0 !important;
+}
+
+.print-page .form-step-generate label {
+    float: none;
+    width: auto;
+}
+
+.print-page #preview {
+    display: none;
+}
+
+.print-page table  {
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+.print-page td,
+.print-page th {
+    width: auto !important;
+    padding: 4px;
+    border: 1px solid #000;
+}
