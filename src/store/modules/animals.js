@@ -31,12 +31,12 @@ export default {
         .catch(throwError(commit, 'Ошибка получения списка приютов (fetchShelters)'))
     },
     [FETCH_ANIMALS]: ({ state, commit, getters }, searchParams = {}) => {
-      if (state.params.offset === state.params.count) return
-
       const params = { ...state.params, ...searchParams }
       if (params.offset === 0) {
         commit(SET_LIST, { name: MODULE_NAME, list: [] })
+        commit(UPDATE_PARAMS, { name: MODULE_NAME, params: { offset: 0 } })
       }
+      if (state.params.offset === state.params.count) return
 
       commit(LOADING, MODULE_NAME)
       return getters.apiService

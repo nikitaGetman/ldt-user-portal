@@ -9,7 +9,7 @@
       <span>{{ cardTitle }}</span>
       <div class="bottom clearfix">
         <span class="description">{{ cardDescription }}</span>
-        <el-button type="text" class="button" @click="createRequest">Познакомиться</el-button>
+        <el-button type="text" class="button" @click="createRequest">Посмотреть</el-button>
       </div>
     </div>
   </el-card>
