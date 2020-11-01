@@ -139,7 +139,7 @@ export default {
       this.createRequestVisible = true
     },
     sendRequest() {
-      const animalId = this.activeAnimal.animalId
+      const animalId = this.activeAnimal.id
       const { phone, name, comment } = this.newRequest
       this.$store
         .dispatch(CREATE_REQUEST, { animalId, phone, name, comment })
