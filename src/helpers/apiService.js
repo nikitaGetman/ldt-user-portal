@@ -31,24 +31,25 @@ client.interceptors.response.use(
 const apiService = {
   client,
   fetchAnimals(params) {
-    return new Promise(resolve => {
-      setTimeout(() => {
-        const item = { value: params.offset, id: params.offset }
-        const list = [item, item, item, item, item]
-        const data = { list, count: 10 }
-        resolve(data)
-      }, 500)
-    })
-    // return this.client.get('/api/animals/public', { params })
+    // return new Promise(resolve => {
+    //   setTimeout(() => {
+    //     const item = { value: params.offset, id: params.offset }
+    //     const list = [item, item, item, item, item]
+    //     const data = { list, count: 10 }
+    //     resolve(data)
+    //   }, 500)
+    // })
+    return this.client.get('/api/animals', { params: { limit: 250, offset: 0, ready: 1 } })
   },
   createRequest(params) {
-    return new Promise(resolve => {
-      setTimeout(() => {
-        const res = { status: 'ok', ...params }
-        resolve(res)
-      }, 2000)
-    })
-    // return this.client.post('/api/request', { params })
+    // return new Promise(resolve => {
+    //   setTimeout(() => {
+    //     const res = { status: 'ok', ...params }
+    //     resolve(res)
+    //   }, 2000)
+    // })
+
+    return this.client.post('/api/requests', { ...params, comment: 'Хочу!' })
   },
   fetchDicts() {
     return new Promise(resolve => {

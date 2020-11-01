@@ -41,7 +41,9 @@ export default {
       commit(LOADING, MODULE_NAME)
       return getters.apiService
         .fetchAnimals(params)
-        .then(({ list, count }) => {
+        .then(response => {
+          const list = response[0]
+          const count = response[1]
           commit(SET_LIST, { name: MODULE_NAME, list: [...state.list, ...list] })
           commit(UPDATE_PARAMS, {
             name: MODULE_NAME,
@@ -54,7 +56,7 @@ export default {
     [CREATE_REQUEST]: ({ commit, getters }, { animalId, phone, name, comment }) => {
       commit(LOADING, MODULE_NAME)
       return getters.apiService
-        .createRequest({ animalId, phone, name, comment })
+        .createRequest({ animal: animalId, phone, name, comment })
         .catch(throwError(commit, 'Ошибка создания запроса (createRequest)'))
         .finally(() => commit(LOADED, MODULE_NAME))
     }

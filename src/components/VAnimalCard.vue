@@ -26,7 +26,7 @@ export default {
       return `${this.animal.nickname}, ${this.animal.age}`
     },
     cardDescription() {
-      return `${this.animal.breed}`
+      return ''
     }
   },
   methods: {
